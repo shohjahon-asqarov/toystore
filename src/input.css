@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply font-varela;
+}
+
+h1 {
+  @apply text-[39px] leading-[48px];
+}
+h2 {
+  @apply text-[28px] ;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-5;
+}
+
+.btn-green {
+  @apply bg-green text-white text-sm py-3 px-6 rounded-full;
+}
+.btn-white {
+  @apply bg-white text-black text-sm py-3 px-6 rounded-full;
+}

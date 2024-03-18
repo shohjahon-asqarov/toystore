@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toy Store</title>
+    <link rel="stylesheet" href="./src/output.css">
+
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="bg-green text-white">
+            <div class="container flex justify-between py-3 items-center">
+                <div class="flex space-x-3 text-xs">
+                    <p>
+                        Call Us: +1 213 974-5898
+                    </p>
+                    <p>
+                        Email: toystore@template.com
+                    </p>
+                </div>
+
+                <ul class="flex space-x-5">
+                    <li>
+                        <a href="#">
+                            <img src="./images/twitter-icon.svg" alt="twitter-icon">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/facebook-icon.svg" alt="facebook-icon">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/instagram-icon.svg" alt="instagram-icon">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/pinterest-icon.svg" alt="pinterest-icon">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/youtube-icon.svg" alt="youtube-icon">
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="container flex justify-between items-center py-5">
+            <div class="flex items-center space-x-10">
+                <a class="text-xl" href="#">ToyStore</a>
+                <nav>
+                    <ul class="flex space-x-5">
+                        <li>
+                            <a href="#">Catalog</a>
+                        </li>
+                        <li>
+                            <a href="#">Delivery</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <button class="flex items-center space-x-2">
+                <span>Cart</span>
+                <img src="./images/cart-icon.svg" alt="cart-icon">
+                <span class="bg-green text-white w-5 h-5 inline-block rounded-full">0</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main>
+        <!-- hero -->
+        <section class="bg-hero h-[640px] flex justify-center items-center">
+            <div class="bg-white py-12 px-20 rounded-2xl text-center space-y-5">
+                <p class="text-green">Say Hello to ToyStore!</p>
+                <h1>Free Ecommerce <br> Template for Webflow</h1>
+                <button class="btn-green">Open Catalog</button>
+            </div>
+        </section>
+
+        <!-- catalog -->
+        <section>
+            <div class="container py-20">
+                <ul class="grid grid-cols-2 gap-10">
+                    <li class="flex items-center bg-yellow rounded-2xl">
+                        <img class="-translate-y-10" src="./images/teddy.png" alt="teddy">
+                        <div class="space-y-2">
+                            <h3 class="text-white text-3xl">Stuffed Animals</h3>
+                            <button class="btn-white">Shop Now</button>
+                        </div>
+                    </li>
+
+                    <li class="flex justify-end items-center bg-pink rounded-2xl">
+                        <div class="space-y-2">
+                            <h3 class="text-white text-3xl">Wooden Toys</h3>
+                            <button class="btn-white">Shop Now</button>
+                        </div>
+                        <img class="-translate-y-10" src="./images/wooden.png" alt="wooden">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- products -->
+        <section>
+            <div class="container py-20">
+                <div class="flex justify-between items-center">
+                    <h2>Stuffed Animals</h2>
+                    <button>
+                        See All Toys
+                        <i class="bi bi-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="h-0.5 bg-[#E5E5E5] mt-8">
+                    <div class="bg-green w-[136px] h-0.5"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
